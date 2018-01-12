@@ -10,7 +10,7 @@ status = enre.get_neighborhood()
 
 if status is not None:
     table_data = [[
-        "Barrio", "Afectados", "Hora estimada"
+        "Barrio", "Hora estimada", "Afectados"
     ]]
 
     for state in status:
